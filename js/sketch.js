@@ -3,6 +3,7 @@ const path = window.location.pathname;
 const currentPage = path.substring(path.lastIndexOf("/") + 1);
 
 function setup() {
+  console.log(process.env.TEST_VARIABLE)
   //create canvas of wohle screen
   createCanvas(windowWidth, windowHeight - 60);
 
